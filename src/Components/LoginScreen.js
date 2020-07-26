@@ -14,8 +14,7 @@ const MainTitle = styled.div`
   font-size: 100px;
   font-weight: bold;
   text-align: center;
-  margin-top: 20 vh;
-`;
+  `;
 
 const LoginButton = styled.button`
   font-family: inherit;
@@ -66,7 +65,7 @@ export default () => (
   <Wrapper>
     <MainTitle>
       
-      <img src="https://sparshbajaj.co/wp-content/uploads/2020/07/mudic-white.svg" alt="Mudic" width="500"
+      <img src="https://sparshbajaj.co/wp-content/uploads/2020/07/mudic-white.svg" alt="Mudic" width="300px"
          height="auto"></img>
 
     </MainTitle>
