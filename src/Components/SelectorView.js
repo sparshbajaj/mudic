@@ -7,9 +7,11 @@ import { BigTitle, SmallTitle } from './Typography';
 
 const Wrapper = styled.div`
   width: 100%;
+  height = auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 15vh;
 `;
 
 export default () => (
