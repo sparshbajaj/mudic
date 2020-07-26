@@ -66,7 +66,7 @@ export default () => (
   <Wrapper>
     <MainTitle>
       
-      <img src="https://i.postimg.cc/NjQ48q4q/mudic-white.png" alt="Mudic" width="200"
+      <img src="https://sparshbajaj.co/wp-content/uploads/2020/07/mudic-white.svg" alt="Mudic" width="500"
          height="auto"></img>
 
     </MainTitle>
