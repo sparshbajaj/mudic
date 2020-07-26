@@ -11,7 +11,6 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15vh;
 `;
 
 export default () => (
@@ -21,6 +20,5 @@ export default () => (
     <SmallTitle>Choose up to 5 genres:</SmallTitle>
     <GenreSelector />
     <DiscoverButton />
-    <footer class="footer"></footer>
   </Wrapper>
 );
