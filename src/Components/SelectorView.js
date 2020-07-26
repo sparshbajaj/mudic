@@ -21,5 +21,6 @@ export default () => (
     <SmallTitle>Choose up to 5 genres:</SmallTitle>
     <GenreSelector />
     <DiscoverButton />
+    <footer class="footer"></footer>
   </Wrapper>
 );
