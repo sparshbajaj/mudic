@@ -50,7 +50,7 @@ const Subtitle = styled.span`
 `;
 
 const login = () => {
-  const CLIENT_ID = '15bd6e805bd34f9fae0d28a2f2325964'; //process.env.REACT_APP_CLIENT_ID;
+  const CLIENT_ID = '99fe567ac76d48cd9d8ec5859a90189d'; //process.env.REACT_APP_CLIENT_ID;
   let redirectUri;
   if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
     redirectUri = 'https://mudic.sparshbajaj.co/app';
