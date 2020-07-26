@@ -7,7 +7,6 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20vh;
 `;
 
 const MainTitle = styled.div`
@@ -15,7 +14,7 @@ const MainTitle = styled.div`
   font-size: 100px;
   font-weight: bold;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 20 vh;
 `;
 
 const LoginButton = styled.button`
