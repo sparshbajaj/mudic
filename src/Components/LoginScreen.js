@@ -53,9 +53,9 @@ const login = () => {
   const CLIENT_ID = '99fe567ac76d48cd9d8ec5859a90189d'; //process.env.REACT_APP_CLIENT_ID;
   let redirectUri;
   if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
-    redirectUri = 'https://mudic.sparshbajaj.co/app';
+    redirectUri = 'https://mudic.herokuapp.com/app';
   } else {
-    redirectUri = 'https://mudic.sparshbajaj.co';
+    redirectUri = 'https://mudic.herokuapp.com/';
   }
   const scope = 'user-read-recently-played,user-top-read,playlist-modify-public';
   const authUri = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=token&redirect_uri=${redirectUri}&scope=${scope}`;
