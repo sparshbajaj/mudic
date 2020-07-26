@@ -72,6 +72,5 @@ export default () => (
     </MainTitle>
     <Subtitle> &#127926; Music + &#128102; Your Mood  = Mudic</Subtitle>
     <LoginButton onClick={() => login()} />
-    <footer class="footer"></footer>
   </Wrapper>
 );
