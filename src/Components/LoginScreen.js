@@ -29,7 +29,7 @@ const LoginButton = styled.button`
   cursor: pointer;
   outline:none;
   position: absolute;
-  magin-top: 30vh;
+  top: 60%;
   transform: translateY(-50%);
 
   &:hover {
