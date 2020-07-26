@@ -24,6 +24,14 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Mudic</title>
+    <style>
+      .content {
+                min-height: calc(100vh - 70px);
+            }
+      .footer {
+                height: 50px;
+            }
+    </style>
   </head>
   <body>
     <noscript> Congrats Time Traveller, You are in the 90s. Now in order to access this site you either need to
@@ -62,5 +70,6 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
+<footer class="footer"></footer>
   </body>
 </html>
