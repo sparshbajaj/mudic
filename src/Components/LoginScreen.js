@@ -65,7 +65,7 @@ const login = () => {
 export default () => (
   <Wrapper>
     <MainTitle>Mudic</MainTitle>
-    <Subtitle>Music + Your Mood = Mudic</Subtitle>
+    <Subtitle> &#127926; Music + &#128102; Your Mood  = Mudic</Subtitle>
     <LoginButton onClick={() => login()} />
   </Wrapper>
 );
