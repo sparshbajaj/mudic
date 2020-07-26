@@ -3,7 +3,7 @@ import React from "react";
 function share(score) {
   const emoji = getEmoji(score);
   navigator.share({
-    url: "https://moodify.benmiz.com",
+    url: "https://mudic.herokuapp.com",
     text: "According to Moodify, my mood is " + emoji + ". What's yours?",
     title: "Moodify",
   });
