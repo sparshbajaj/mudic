@@ -64,8 +64,8 @@ const login = () => {
 
 export default () => (
   <Wrapper>
-    <MainTitle>Moodify</MainTitle>
-    <Subtitle>Discover music that fits your mood</Subtitle>
+    <MainTitle>Mudic</MainTitle>
+    <Subtitle>Music + Your Mood = Mudic</Subtitle>
     <LoginButton onClick={() => login()} />
   </Wrapper>
 );
