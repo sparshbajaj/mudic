@@ -55,7 +55,7 @@ const login = () => {
   if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
     redirectUri = 'http://localhost:3000/app';
   } else {
-    redirectUri = 'https://moodify.benmiz.com/app';
+    redirectUri = 'https://mudic.herokuapp.com';
   }
   const scope = 'user-read-recently-played,user-top-read,playlist-modify-public';
   const authUri = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=token&redirect_uri=${redirectUri}&scope=${scope}`;
