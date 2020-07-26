@@ -66,7 +66,7 @@ export default () => (
   <Wrapper>
     <MainTitle>
       
-      <img src="../assets/mudic-white.svg" alt="Mudic" width="200"
+      <img src="https://i.postimg.cc/NjQ48q4q/mudic-white.png" alt="Mudic" width="200"
          height="auto"></img>
 
     </MainTitle>
