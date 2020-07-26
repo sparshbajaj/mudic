@@ -14,6 +14,7 @@ const MainTitle = styled.div`
   font-size: 100px;
   font-weight: bold;
   text-align: center;
+  margin-top: 20vh;
   `;
 
 const LoginButton = styled.button`
@@ -28,7 +29,7 @@ const LoginButton = styled.button`
   cursor: pointer;
   outline:none;
   position: absolute;
-  top: 50%;
+  magin-top: 30vh;
   transform: translateY(-50%);
 
   &:hover {
