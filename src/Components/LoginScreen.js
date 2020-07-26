@@ -64,7 +64,12 @@ const login = () => {
 
 export default () => (
   <Wrapper>
-    <MainTitle>Mudic</MainTitle>
+    <MainTitle>
+      
+      <img src="../assets/mudic-white.svg" alt="Mudic" width="200"
+         height="auto"></img>
+
+    </MainTitle>
     <Subtitle> &#127926; Music + &#128102; Your Mood  = Mudic</Subtitle>
     <LoginButton onClick={() => login()} />
   </Wrapper>
