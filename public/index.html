@@ -23,10 +23,11 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Moodify</title>
+    <title>Mudic</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript> Congrats Time Traveller, You are in the 90s. Now in order to access this site you either need to
+      update your browser or enable Javascript from settings. And please don't use Internet explorer &#128514;</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,24 +40,27 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
 
-    <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyAhnIp6vOA3Gn6u-B7_2YMD3D2G0PMuSKo",
-        authDomain: "moodify-c2a16.firebaseapp.com",
-        databaseURL: "https://moodify-c2a16.firebaseio.com",
-        projectId: "moodify-c2a16",
-        storageBucket: "moodify-c2a16.appspot.com",
-        messagingSenderId: "478557079424",
-        appId: "1:478557079424:web:2e2eadbc1408fb34192365"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-    </script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBGukjLt1CRTFNR_BBIdQzITaX6eifm38U",
+    authDomain: "mudic-5b270.firebaseapp.com",
+    databaseURL: "https://mudic-5b270.firebaseio.com",
+    projectId: "mudic-5b270",
+    storageBucket: "mudic-5b270.appspot.com",
+    messagingSenderId: "811477397912",
+    appId: "1:811477397912:web:b9abd1b71c36e3680f7bed",
+    measurementId: "G-F5M4L5LTKS"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   </body>
 </html>
