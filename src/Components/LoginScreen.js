@@ -50,12 +50,12 @@ const Subtitle = styled.span`
 `;
 
 const login = () => {
-  const CLIENT_ID = '99fe567ac76d48cd9d8ec5859a90189d'; //process.env.REACT_APP_CLIENT_ID;
+  const CLIENT_ID = '19fe567ac76d48cd9d8ec5859a90189e'; //process.env.REACT_APP_CLIENT_ID;
   let redirectUri;
   if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
-    redirectUri = 'https://mudic.herokuapp.com/app';
+    redirectUri = 'http://localhost:3000/app';
   } else {
-    redirectUri = 'https://mudic.herokuapp.com/';
+    redirectUri = 'https://mudic-spotify.web.app/app';
   }
   const scope = 'user-read-recently-played,user-top-read,playlist-modify-public';
   const authUri = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=token&redirect_uri=${redirectUri}&scope=${scope}`;
@@ -66,7 +66,7 @@ export default () => (
   <Wrapper>
     <MainTitle>
       
-      <img src="https://sparshbajaj.co/wp-content/uploads/2020/07/mudic-white.svg" alt="Mudic" width="300px"
+      <img src="/images/mudic-white.svg" alt="Mudic" width="300px"
          height="auto"></img>
 
     </MainTitle>
