@@ -13,6 +13,7 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
     "redux": "^4.0.5",
+    "node": "18.x",
     "styled-components": "^5.1.1"
   },
   "scripts": {
